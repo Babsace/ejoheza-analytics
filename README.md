@@ -5,7 +5,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 Rwanda Social Security Board (RSSB) administers the **EjoHeza** voluntary long-term savings scheme targeting Rwandans in the informal sector. This project addresses three operational challenges:
 
@@ -17,7 +17,7 @@ Rwanda Social Security Board (RSSB) administers the **EjoHeza** voluntary long-t
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 ejoheza-analytics/
@@ -44,7 +44,7 @@ ejoheza-analytics/
 
 ---
 
-## 🗄️ Part 1 — SQL Analysis
+## Part 1 — SQL Analysis
 
 ### Setup
 
@@ -105,7 +105,7 @@ HAVING inactivity_rate > 0.30;
 
 ---
 
-## 🐍 Part 2 — Python Behavioral Analysis
+## Part 2 — Python Behavioral Analysis
 
 Run the notebook:
 
@@ -126,13 +126,13 @@ The monthly contribution trend reveals a consistent upward trajectory with seaso
 
 ---
 
-## 📊 Part 3 — Streamlit Dashboard
+## Part 3 — Streamlit Dashboard
 
 ### Setup & Run
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/ejoheza-analytics.git
+git clone https://github.com/babsace/ejoheza-analytics.git
 cd ejoheza-analytics
 
 # 2. Create a virtual environment (recommended)
@@ -159,7 +159,7 @@ streamlit run dashboard/EjoHeza_dashboard.py
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ```
 streamlit
@@ -174,7 +174,7 @@ Install with: `pip install -r requirements.txt`
 
 ---
 
-## 🔒 Security Note
+## Security Note
 
 Database credentials are **not** committed to this repository. Before running, update `dashboard/EjoHeza_dashboard.py`:
 
@@ -190,8 +190,5 @@ def get_connection():
 
 For production deployments, use environment variables or a `.env` file (already excluded in `.gitignore`).
 
----
-
-## 👤 Author
 
 Prepared for the RSSB Senior Data Analyst technical assessment.
